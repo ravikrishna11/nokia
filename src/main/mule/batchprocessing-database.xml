@@ -53,5 +53,6 @@ payload ]]></ee:set-payload>
 				<logger level="INFO" doc:name="Logger" doc:id="b4e73eb6-a2d2-4e0c-bd01-796910c75762" message="Insert complted"/>
 			</batch:on-complete>
 		</batch:job>
+		<logger level="INFO" doc:name="Logger component" doc:id="5a4328d3-9224-48a0-8da6-b16aae4a914b" message="#[payload]"/>
 	</flow>
 </mule>
